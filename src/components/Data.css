@@ -1,0 +1,48 @@
+.card{
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    margin: 30px;
+    padding: 10px 30px;
+    border-radius: 5px;
+    max-width: 700px;
+}
+.flexItem{
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+    gap: 20px;
+}
+.reactIcons{
+    display: flex;
+    position: relative;    
+}
+
+button{
+    border-radius: 70px;
+    border: none;
+    padding: 10px;
+    color: #4B145B;
+    color: red;
+}
+
+#minusBtn{
+    position: absolute;
+    font-size: 30px;
+}
+#plusBtn{
+    z-index: 1;
+    font-size: 30px;
+}
+.link{
+    display: none;
+}
+.link.active{
+    display: block;
+    background-color: whitesmoke;
+    transition: all 0.4s ease;
+}
+.icon.active #minusBtn{
+    z-index: 87898;
+}
+#minusBtn.active{
+    z-index: 8789887678
+}
